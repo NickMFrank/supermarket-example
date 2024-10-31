@@ -1,0 +1,8 @@
+# Represents a simple grocery list that totals to $33.38
+# 4 Eggs and 1 Bread should be fully discounted
+
+2% Milk,2,399,none
+Eggs,12,49,btgs
+Tomato Sauce,1,899,bsgc
+Frozen Pizza Crust,1,450,none
+Bread,2,799,bsgc

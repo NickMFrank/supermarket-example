@@ -1,0 +1,30 @@
+# Represents a complex grocery list that totals to $176.20
+# 2 Apples, 4 Oranges, 1 Ruffles Chips, 10 Napkins, and 24 Chocolate should be fully discounted by the BuyTwoGetSame deal
+# 1 Ice Cream, 2 Hot Dog, 6 Paper Cups, and 1 Cat Food should be fully discounted by the BuySetGetcheap deal
+
+Apples,6,150,btgs
+Oranges,12,100,btgs
+Whole Milk,1,200,btgs
+Oreo Cookies,16,35,none
+Raw Beef,2,400,none
+Hot Dogs,6,100,bsgc
+Hamburger Buns,2,100,none
+Ketchup,1,100,none
+Mustard,2,50,none
+Mayonnaise,1,150,none
+Ruffles Chips,3,250,btgs
+Paper Plates,20,15,none
+Paper Cups,16,50,bsgc
+Plastic Utensils,2,10,none
+Napkins,32,25,btgs
+Dog Food,1,1200,btgs
+Cat Food,4,30,bsgc
+Bird Treats,8,300,none
+Pet Costumes,2,2000,bsgc
+Clorox Wipes,2,100,none
+Sponges,6,100,none
+Dish Soap,1,350,btgs
+Marshmallows,2,50,none
+Ice Cream,3,450,bsgc
+Pizza,1,1500,none
+Chocolate,74,10,btgs
