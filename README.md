@@ -1,11 +1,12 @@
 # Supermarket Check Out: Nicholas Frank
-### Overview
-This project, built in C++, prints a receipt based on a series of products and discounts provided via a comma separated value (.csv) file.
-### Usage
+## [Description]
+This project, built in C++ with OOD principles, prints a receipt based on a series of products and discounts provided via a comma separated value (.csv) file.
+## [How to Compile and Run]
 - Build with `g++ -std=c++23 ./src/*.cpp -I./include -o prog`
 - Run with `./prog <filename>`, directing to a .csv file.
 - `lists/SimpleGrocery.csv`, `lists/ComplexGrocery.csv`, and `lists/BadGrocery.csv` are provided as example files.
 - Future .csv files should hold a line for each product formatted `<name>,<quantity>,<cost in cents>,<deal tag (see deal types)>`.
+## [Breakdown]
 #### Deal types
 - Currently, the only deals implemented are:
   - buy 3 identical items and pay for two (BuyTwoGetSame) : tagged as `btgs`
@@ -26,3 +27,5 @@ A List functions as a metaphorical shopping cart, holding pairs of Items and the
 The Parse class exists as a utility to create a List from a .csv file formatted as described in the Usage section of this README. This code also handles basic input validation (ensuring positive quantities and reasonable names for example). As such, this program's entry point uses the Parse functionality to build a List before immediately printing its receipt. 
 #### Test Class
 The Test class exists as some form of automated unit testing, allowing a user to directly run a limited suite that directly checks the total cost of a created List, reporting any unexpected results.
+## [Hindsight]
+While the choice to represent money in cents did simplify input validation, it tends to confuse most. I also could have refrained from using Optionals to reduce general complexity.
