@@ -1,4 +1,4 @@
-# Supermarket Check Out: Nicholas Frank
+# Supermarket Check Out by Nick Frank
 ## [Description]
 This project, built in C++ with OOD principles, prints a receipt based on a series of products and discounts provided via a comma separated value (.csv) file.
 ## [How to Compile and Run]
